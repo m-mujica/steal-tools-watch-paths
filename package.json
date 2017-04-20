@@ -1,0 +1,33 @@
+{
+  "name": "steal-tools-watch-paths",
+  "version": "0.0.1",
+  "description": "Example app using build watch mode and paths config.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-mujica/steal-tools-watch-paths.git"
+  },
+  "keywords": [
+    "steal",
+    "steal-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-mujica/steal-tools-watch-paths/issues"
+  },
+  "homepage": "https://github.com/m-mujica/steal-tools-watch-paths#readme",
+  "devDependencies": {
+    "steal": "^1.4.6",
+    "steal-tools": "^1.3.1"
+  },
+  "steal": {
+    "paths": {
+      "jquery": "vendor/jquery.js"
+    }
+  }
+}
